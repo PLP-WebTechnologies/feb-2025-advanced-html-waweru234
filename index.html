@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form button {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Sample Page</h1>
+
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Features</li>
+        <li>Usage</li>
+        <li>Feedback</li>
+        <li>Contact</li>
+    </ol>
+
+    <h2>External Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Pexels Sample" width="600">
+
+    <h2>Contact Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>123 Main St, Nairobi</td>
+                <td>0712 345 678</td>
+                <td>alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Mwangi</td>
+                <td>456 Elm St, Kisumu</td>
+                <td>0722 987 654</td>
+                <td>bob@example.com</td>
+            </tr>
+            <tr>
+                <td>Caroline Njeri</td>
+                <td>789 Oak Ave, Mombasa</td>
+                <td>0733 112 233</td>
+                <td>caroline@example.com</td>
+            </tr>
+            <tr>
+                <td>David Otieno</td>
+                <td>321 Pine St, Nakuru</td>
+                <td>0744 221 133</td>
+                <td>david@example.com</td>
+            </tr>
+            <tr>
+                <td>Eva Kimani</td>
+                <td>654 Cedar Rd, Eldoret</td>
+                <td>0755 556 677</td>
+                <td>eva@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Mobile Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
